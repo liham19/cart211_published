@@ -71,7 +71,7 @@ nav {
 
     display: block;
     justify-content: space-around;
-    text-align: right;
+    align-items: center;
     word-spacing: 20px;
     font-size: 150%;
     font-weight: 900;
