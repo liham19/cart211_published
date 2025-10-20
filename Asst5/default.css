@@ -126,11 +126,12 @@ article h3 {
 
 footer {
 
-    margin-top: 20px;
+    margin-top: 10px;
     min-height: 30px;
-    font-size: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
     font-weight: lighter;
-    text-align: right;
+    text-align: center;
     font-style: italic;
 
 }
@@ -156,6 +157,12 @@ footer a {
     position: relative;
     display: inline-block;
     cursor: pointer;
+}
+
+.books figure figcaption{
+
+    font-size: 16px;
+    font-weight: light;
 }
 
 .im{
@@ -246,7 +253,25 @@ footer a {
     grid-row: 9/11;
 }
 
+.social{
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    color: grey;
+
+}
+
+.social .fa{
+
+    font-size: 2em;
+    padding: 8px;
+    padding-top: 10px;
+    color: grey;
+
+}
 
 .books img {
 
